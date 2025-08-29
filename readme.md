@@ -1,37 +1,55 @@
-## About the project
+# 📑 CPF Validator API
 
-This is a simple **CPF Validator API**.  
-It provides a public endpoint to validate Brazilian CPF numbers and returns a JSON response that can be integrated into any system.
+A lightweight API to validate **Brazilian CPF numbers**.  
+It returns clean and simple **JSON responses**, ready for integration into any system.
 
-#### Features
+---
 
-- Validates Brazilian CPF numbers  
-- Cleans input automatically (removes dots, dashes, etc.)  
-- Returns result as JSON  
-- Free to use, ready for integration  
+## ✨ Features
 
-## Usage
+✔️ Validates Brazilian CPF numbers  
+✔️ Cleans input automatically (removes dots, dashes, etc.)  
+✔️ Returns result as JSON  
+✔️ Public endpoint, free to use  
 
-### Request
+---
 
+## 🚀 Usage
+
+### 🔗 Request
+```http
 GET https://cpfvalido.vercel.app/?cpf=08133638001
+```
 
-### Response (valid CPF)
-
+### ✅ Response (valid CPF)
+```json
 {
   "cpf": "08133638001",
   "valid": true
 }
+```
 
-### Response (invalid CPF)
-
+### ❌ Response (invalid CPF)
+```json
 {
   "cpf": "12345678900",
   "valid": false
 }
+```
 
-### Response (no CPF provided)
-
+### ⚠️ Response (no CPF provided)
+```json
 {
   "error": "CPF é obrigatório. Use ?cpf=XXXXXXXXXXX"
 }
+```
+
+---
+
+## 🛠 Example Integrations
+
+- Frontend apps (JS/React/Vue/Angular)  
+- Backend services (Node, PHP, Python, etc.)  
+- Low-code tools (Zapier, n8n, Integromat)  
+
+---
