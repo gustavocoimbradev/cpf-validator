@@ -52,6 +52,7 @@ GET https://cpfvalido.vercel.app/api/generate
 #### 🔄 Resposta
 ```json
 {
-  "cpf": "12345678909"
+  "cpf": "12345678909",
+  "valid": true
 }
 ```
