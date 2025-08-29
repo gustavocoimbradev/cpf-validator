@@ -1,11 +1,11 @@
 {
   "rewrites": [
-     {
-      "source": "/api",
-      "destination": "/"
-    },
     {
       "source": "/",
+      "destination": "/api/validate"
+    },
+    {
+      "source": "/validate",
       "destination": "/api/validate"
     },
     {
