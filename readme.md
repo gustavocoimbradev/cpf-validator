@@ -45,11 +45,3 @@ GET https://cpfvalido.vercel.app/?cpf=08133638001
 ```
 
 ---
-
-## 🛠 Example Integrations
-
-- Frontend apps (JS/React/Vue/Angular)  
-- Backend services (Node, PHP, Python, etc.)  
-- Low-code tools (Zapier, n8n, Integromat)  
-
----
