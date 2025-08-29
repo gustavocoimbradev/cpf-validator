@@ -1,4 +1,4 @@
-<img height="100" alt="cpf-validator-hero" src="https://github.com/user-attachments/assets/75fa5e93-d016-436a-bc47-4b80c2e3bf30" />
+<img height="100" alt="cpf-validator-hero" src="https://github.com/user-attachments/assets/10aa6325-499f-4d92-be6a-5fb87568b165" />
 
 ## About the project
 
