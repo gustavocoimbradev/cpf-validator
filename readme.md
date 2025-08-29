@@ -2,24 +2,38 @@
 
 ## About the project
 
-This is a simple **CPF validator** built with plain JavaScript.  
-It was created for learning and portfolio purposes, focusing on basic class design, digit calculation logic, and cross-environment input handling (browser `prompt` or Node.js `readline`).  
+This is a simple **CPF Validator API**.  
+It provides a public endpoint to validate Brazilian CPF numbers and returns a JSON response that can be integrated into any system.
 
 #### Features
 
 - Validates Brazilian CPF numbers  
-- Removes any non-numeric characters automatically  
-- Calculates and compares verification digits  
-- Works both in browser (via `prompt`) and in Node.js (via `readline`)  
-- Colored output in terminal (green for valid, red for invalid)  
+- Cleans input automatically (removes dots, dashes, etc.)  
+- Returns result as JSON  
+- Free to use, ready for integration  
 
-#### Technologies
+## Usage
 
-- JavaScript (no dependencies)  
-- Node.js (for CLI usage, using native `readline`)  
+### Request
 
-## Main Files
+GET https://cpfvalido.vercel.app/?cpf=08133638001
 
-#### Core
+### Response (valid CPF)
 
-- [`index.js`](index.js) – Contains the `CPF` class, validation logic, and CLI/browser input handling  
+{
+  "cpf": "08133638001",
+  "valid": true
+}
+
+### Response (invalid CPF)
+
+{
+  "cpf": "12345678900",
+  "valid": false
+}
+
+### Response (no CPF provided)
+
+{
+  "error": "CPF é obrigatório. Use ?cpf=XXXXXXXXXXX"
+}
