@@ -1,8 +1,12 @@
 {
-    "rewrites": [
-        {
-            "source": "/",
-            "destination": "/api/validate"
-        }
-    ]
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api/validate"
+    },
+    {
+      "source": "/generate",
+      "destination": "/api/generate"
+    }
+  ]
 }
