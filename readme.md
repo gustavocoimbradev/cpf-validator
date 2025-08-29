@@ -36,12 +36,3 @@ GET https://cpfvalido.vercel.app/?cpf=08133638001
   "valid": false
 }
 ```
-
-### ⚠️ Resposta (CPF não informado)
-```json
-{
-  "error": "CPF é obrigatório. Use ?cpf=XXXXXXXXXXX"
-}
-```
-
----
