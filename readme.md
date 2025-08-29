@@ -17,7 +17,9 @@ Ela retorna respostas em JSON, limpas e fáceis de integrar em qualquer sistema.
 ## 🚀 Como usar
 
 ### 🔗 Requisição
+```http
 GET https://cpfvalido.vercel.app/?cpf=08133638001
+```
 
 ### ✅ Resposta (CPF válido)
 ```json
