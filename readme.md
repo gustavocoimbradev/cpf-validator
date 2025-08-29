@@ -40,13 +40,6 @@ GET https://cpfvalido.vercel.app/api/validate?cpf=08133638001
 }
 ```
 
-#### ⚠️ Resposta (nenhum CPF informado)
-```json
-{
-  "error": "CPF é obrigatório. Use ?cpf=XXXXXXXXXXX"
-}
-```
-
 ---
 
 ### 🆕 Gerar CPF válido
