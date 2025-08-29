@@ -1,4 +1,4 @@
-# 📑 API CPF Válido
+# 📑 CPF Válido API
 
 Uma API simples e leve para validar números de CPF brasileiros.
 Ela retorna respostas em JSON, limpas e fáceis de integrar em qualquer sistema.
