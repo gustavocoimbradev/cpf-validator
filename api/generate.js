@@ -12,5 +12,5 @@ export default function handler(req, res) {
     }
 
     const cpf = generateCPF()
-    return res.status(200).json({ cpf })
+    return res.status(200).json({ cpf, valid: true })
 }
