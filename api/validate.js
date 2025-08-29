@@ -28,7 +28,6 @@ export default function handler(req, res) {
   }
 
   const { cpf } = req.query
-
   if (!cpf) {
     return res.status(400).json({ error: "CPF é obrigatório. Use ?cpf=XXXXXXXXXXX" })
   }
