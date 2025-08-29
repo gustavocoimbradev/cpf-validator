@@ -1,5 +1,5 @@
 {
-  "name": "validar-cpf-api",
+  "name": "cpf-valido-api",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
@@ -7,6 +7,6 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "publish": "git add . && git pull && git commit -m 'cpf-validator' && git push"
+    "publish": "git add . && git pull && git commit -m 'cpf-valido-api' && git push"
   }
 }
