@@ -1,27 +1,25 @@
-# 📑 CPF Válido API
+# 📑 API CPF Válido
 
-A lightweight API to validate **Brazilian CPF numbers**.  
-It returns clean and simple **JSON responses**, ready for integration into any system.
-
----
-
-## ✨ Features
-
-✔️ Validates Brazilian CPF numbers  
-✔️ Cleans input automatically (removes dots, dashes, etc.)  
-✔️ Returns result as JSON  
-✔️ Public endpoint, free to use  
+Uma API simples e leve para validar números de CPF brasileiros.
+Ela retorna respostas em JSON, limpas e fáceis de integrar em qualquer sistema.
 
 ---
 
-## 🚀 Usage
+## ✨ Funcionalidades
 
-### 🔗 Request
-```http
+- Valida números de CPF brasileiros
+- Limpa a entrada automaticamente (remove pontos, traços, etc.)
+- Retorna o resultado em JSON
+- Endpoint público, pronto para uso
+
+---
+
+## 🚀 Como usar
+
+### 🔗 Requisição
 GET https://cpfvalido.vercel.app/?cpf=08133638001
-```
 
-### ✅ Response (valid CPF)
+### ✅ Resposta (CPF válido)
 ```json
 {
   "cpf": "08133638001",
@@ -29,7 +27,7 @@ GET https://cpfvalido.vercel.app/?cpf=08133638001
 }
 ```
 
-### ❌ Response (invalid CPF)
+### ❌ Resposta (CPF inválido)
 ```json
 {
   "cpf": "12345678900",
@@ -37,7 +35,7 @@ GET https://cpfvalido.vercel.app/?cpf=08133638001
 }
 ```
 
-### ⚠️ Response (no CPF provided)
+### ⚠️ Resposta (CPF não informado)
 ```json
 {
   "error": "CPF é obrigatório. Use ?cpf=XXXXXXXXXXX"
