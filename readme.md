@@ -1,4 +1,4 @@
-# 📑 CPF Validator API
+# 📑 CPF Válido API
 
 A lightweight API to validate **Brazilian CPF numbers**.  
 It returns clean and simple **JSON responses**, ready for integration into any system.
