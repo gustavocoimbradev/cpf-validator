@@ -1,5 +1,3 @@
-<img height="100" alt="cpf-validator-hero" src="https://github.com/user-attachments/assets/c2f64c6b-db00-4ed2-9a01-20d699ff859a" />
-
 ## About the project
 
 This is a simple **CPF Validator API**.  
